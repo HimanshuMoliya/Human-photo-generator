@@ -55,19 +55,19 @@ def main():
         features[feature] = st.sidebar.slider(feature, 0, 100, 50, 5)
 
 
-    st.sidebar.title('Note')
-    st.sidebar.write(
-        """Playing with the sliders, you _will_ find **biases** that exist in this model.
-        """
-    )
-    st.sidebar.write(
-        """For example, moving the `Smiling` slider can turn a face from masculine to feminine or from lighter skin to darker. 
-        """
-    )
-    st.sidebar.write(
-        """Apps like these that allow you to visually inspect model inputs help you find these biases so you can address them in your model _before_ it's put into production.
-        """
-    )
+    #st.sidebar.title('Note')
+    #st.sidebar.write(
+    #    """Playing with the sliders, you _will_ find **biases** that exist in this model.
+    #    """
+    #)
+    #st.sidebar.write(
+    #    """For example, moving the `Smiling` slider can turn a face from masculine to feminine or from lighter skin to darker. 
+    #    """
+    #)
+    #st.sidebar.write(
+    #    """Apps like these that allow you to visually inspect model inputs help you find these biases so you can address them in your model _before_ it's put into production.
+    #    """
+    #)
 
 
     # Generate a new image from this feature vector (or retrieve it from the cache).
