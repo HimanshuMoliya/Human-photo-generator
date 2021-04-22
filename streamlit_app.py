@@ -50,7 +50,7 @@ def main():
         # Don't let the user pick feature values to control.
         control_features = default_control_features
     
-    features['Male'] = st.sidebar.slider(feature, 0, 100, 20, 5)
+    features['Male'] = st.sidebar.slider('Male', 0, 100, 20, 5)
     # Insert user-controlled values from sliders into the feature vector.
     for feature in control_features:
         features[feature] = st.sidebar.slider(feature, 0, 100, 50, 5)
