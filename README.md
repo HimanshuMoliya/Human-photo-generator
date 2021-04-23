@@ -1,4 +1,4 @@
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/himanshumoliya/Human-photo-generator/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/himanshumoliya/Human-photo-generator/main)
 
 
 ![In-use Animation](https://github.com/HimanshuMoliya/Human-photo-generator/blob/main/GAN-demo.gif?raw=true "In-use Animation")
