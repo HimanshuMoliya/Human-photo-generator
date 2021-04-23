@@ -30,6 +30,7 @@ def main():
     session, pg_gan_model = load_pg_gan_model()
 
     st.sidebar.title('Features')
+    st.sidebar.image("p1.png", use_column_width=True)
     seed = 27834096
     # If the user doesn't want to select which features to control, these will be used.
     default_control_features = ['Young','Smiling','Male']
