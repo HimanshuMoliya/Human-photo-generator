@@ -1,3 +1,5 @@
+
+
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/himanshumoliya/Human-photo-generator/main)
 
 
@@ -12,3 +14,5 @@ cd Human-photo-generator
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
+
+HERE is a live demo https://share.streamlit.io/himanshumoliya/human-photo-generator/main
